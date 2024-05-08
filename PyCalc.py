@@ -5,7 +5,7 @@ from tkinter import ttk
 class Calculator:
     def __init__(self, master):
         self.master = master
-        self.master.title("Calculator")
+        self.master.title("PyCalc")
         self.master.geometry("300x400")
         self.master.resizable(False, False)
 
